@@ -1,8 +1,8 @@
-# simple-react-full-stack
+# fullStackExample
 
 This is a boilerplate to build a full stack web application using React, Node.js, Express and Webpack. It is also configured with webpack-dev-server, eslint, prettier and babel.
 
-- [simple-react-full-stack](#simple-react-full-stack)
+- [fullStackExample](#fullStackExample)
   - [Introduction](#introduction)
     - [Development mode](#development-mode)
     - [Production mode](#production-mode)
@@ -40,7 +40,7 @@ In the production mode, we will have only 1 server running. All the client side 
 git clone https://github.com/terrenmoe/fullStackExample
 
 # Go inside the directory
-cd simple-react-full-stack
+cd fullStackExample
 
 # Install dependencies
 yarn (or npm install)
