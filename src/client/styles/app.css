@@ -1,0 +1,58 @@
+img {
+  display: inline;
+  overflow: hidden;
+  animation-name: Logo-spin, Logo-bg-spin;
+  animation-duration: 8s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: normal, reverse;
+  pointer-events: none;
+  margin: 0;
+  padding: 0;
+  transition: transform 10s;
+  background: #DFFF00;
+}
+
+@keyframes Logo-bg-spin {
+  0% {
+    background:radial-gradient(circle, #FF96C1, #00FFFF);
+    background-size: 2px 500px;
+    background-repeat: repeat;
+  }
+  20% {
+    background:radial-gradient(circle, #FFB96C, #00FFC5);
+    background-size: 20px 400px;
+    background-repeat: repeat;
+  }
+  40% {
+    background:radial-gradient(circle, #FFE018, #65FF68);
+    background-size: 40px 300px;
+    background-repeat: repeat;
+  }
+  60% {
+    background:radial-gradient(circle, #65FF68, #FFE018);
+    background-size: 60px 200px;
+    background-repeat: repeat;
+  }
+  80% {
+    background:radial-gradient(circle, #00FFC5, #FFB96C);
+    background-size: 80px 100px;
+    background-repeat: repeat;
+  }
+
+  100% {
+    background:radial-gradient(circle, #00FFFF, #FF96C1);
+    background-size: 100px 10px;
+    background-repeat: repeat;
+  }
+}
+
+@keyframes Logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
