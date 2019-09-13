@@ -1,8 +1,5 @@
 # simple-react-full-stack
 
-[![Build Status](https://travis-ci.org/crsandeep/simple-react-full-stack.svg?branch=master)](https://travis-ci.org/crsandeep/simple-react-full-stack)
-[![Greenkeeper badge](https://badges.greenkeeper.io/crsandeep/simple-react-full-stack.svg)](https://greenkeeper.io/)
-
 This is a boilerplate to build a full stack web application using React, Node.js, Express and Webpack. It is also configured with webpack-dev-server, eslint, prettier and babel.
 
 - [simple-react-full-stack](#simple-react-full-stack)
@@ -40,7 +37,7 @@ In the production mode, we will have only 1 server running. All the client side 
 
 ```bash
 # Clone the repository
-git clone https://github.com/crsandeep/simple-react-full-stack
+git clone https://github.com/terrenmoe/fullStackExample
 
 # Go inside the directory
 cd simple-react-full-stack
@@ -112,7 +109,7 @@ const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const CleanWebpackPlugin = require("clean-webpack-plugin");
 
-const outputDirectory = "dist";
+const outputDirectory = "build";
 
 module.exports = {
   entry: ["babel-polyfill", "./src/client/index.js"],
